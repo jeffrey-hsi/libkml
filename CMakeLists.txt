@@ -19,6 +19,12 @@ option(WITH_SWIG   "Build all swig bindings"   OFF)
 option(WITH_PYTHON "Build python bindings" OFF)
 option(WITH_JAVA   "Build java bindings"   OFF)
 
+option(USE_EXTERNAL_ZLIB      "Download and use external zlib"  OFF)
+option(USE_EXTERNAL_MINIZIP   "Download and use external minizip" OFF)
+option(USE_EXTERNAL_BOOST     "Download and use external boost" OFF)
+option(USE_EXTERNAL_URIPARSER "Download and use external uriparser" OFF)
+option(USE_EXTERNAL_EXPAT     "Download and use external expat" OFF)
+
 set(LIBKML_DATA_DIR  ${CMAKE_SOURCE_DIR}/testdata CACHE "Directory containing test data" PATH)
 
 #AM_CXXFLAGS = -Wall -Wextra -Wno-unused-parameter -pedantic -fno-rtti
