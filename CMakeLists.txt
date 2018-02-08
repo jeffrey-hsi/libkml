@@ -107,7 +107,7 @@ else()
   list(APPEND KMLBASE_DEPENDS EXPAT)
 endif()
 
-find_package(ZLIB 1.2.8)
+find_package(ZLIB 1.2.11)
 if(ZLIB_FOUND AND NOT USE_EXTERNAL_ZLIB)
   include_directories(${ZLIB_INCLUDE_DIR})
 else()

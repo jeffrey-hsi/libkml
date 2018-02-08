@@ -15,7 +15,8 @@ if(ANDROID_ABI)
     -DBUILD_examples:BOOL=OFF
     -DBUILD_tests:BOOL=OFF
     -DBUILD_tools:BOOL=OFF
-    -DBUILD_shared:BOOL=${BUILD_SHARED_LIBS})
+    -DBUILD_shared:BOOL=${BUILD_SHARED_LIBS}
+    -DCMAKE_DEBUG_POSTFIX:STRING=d)
 else()
   ExternalProject_Add(EXPAT
     PREFIX EXPAT
@@ -29,7 +30,8 @@ else()
     -DBUILD_examples:BOOL=OFF
     -DBUILD_tests:BOOL=OFF
     -DBUILD_tools:BOOL=OFF
-    -DBUILD_shared:BOOL=${BUILD_SHARED_LIBS})
+    -DBUILD_shared:BOOL=${BUILD_SHARED_LIBS}
+    -DCMAKE_DEBUG_POSTFIX:STRING=d)
 endif()
 
 include_project_vars(EXPAT "libexpat")
