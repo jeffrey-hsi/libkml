@@ -28,7 +28,7 @@
 #ifndef KML_BASE_XML_ELEMENT_H__
 #define KML_BASE_XML_ELEMENT_H__
 
-#include "boost/intrusive_ptr.hpp"
+#include "boost/smart_ptr/intrusive_ptr.hpp"
 #include "kml/base/referent.h"
 #include "kml/base/util.h"
 #include "kml/base/xml_namespaces.h"

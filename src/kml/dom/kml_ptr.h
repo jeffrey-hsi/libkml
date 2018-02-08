@@ -26,7 +26,7 @@
 #ifndef KML_DOM_KML_PTR_H__
 #define KML_DOM_KML_PTR_H__
 
-#include "boost/intrusive_ptr.hpp"
+#include "boost/smart_ptr/intrusive_ptr.hpp"
 
 namespace kmldom {
 

@@ -26,7 +26,7 @@
 #ifndef KML_XSD_XSD_TYPE_H__
 #define KML_XSD_XSD_TYPE_H__
 
-#include "boost/intrusive_ptr.hpp"
+#include "boost/smart_ptr/intrusive_ptr.hpp"
 #include "kml/base/referent.h"
 #include "kml/base/util.h"
 

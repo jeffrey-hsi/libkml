@@ -27,7 +27,7 @@
 #define KML_XSD_XSD_SIMPLE_TYPE_H__
 
 #include <vector>
-#include "boost/intrusive_ptr.hpp"
+#include "boost/smart_ptr/intrusive_ptr.hpp"
 #include "kml/base/attributes.h"
 #include "kml/xsd/xsd_type.h"
 

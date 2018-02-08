@@ -28,7 +28,7 @@
 #ifndef KML_XSD_XSD_SCHEMA_H__
 #define KML_XSD_XSD_SCHEMA_H__
 
-#include "boost/intrusive_ptr.hpp"
+#include "boost/smart_ptr/intrusive_ptr.hpp"
 #include "boost/scoped_ptr.hpp"
 #include "kml/base/attributes.h"
 #include "kml/base/referent.h"

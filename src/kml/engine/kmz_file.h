@@ -29,7 +29,7 @@
 #define KML_ENGINE_KMZ_FILE_H__
 
 #include <vector>
-#include "boost/intrusive_ptr.hpp"
+#include "boost/smart_ptr/intrusive_ptr.hpp"
 #include "boost/scoped_ptr.hpp"
 #include "kml/base/referent.h"
 #include "kml/base/util.h"
